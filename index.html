@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Worktrek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+  </head>
+  <body>
+<!-- 
+    <div id="loading-container">
+      <div class="loading-position">
+        <div class="container">
+          <h2>
+            Worktrek <br>
+            Group
+          </h2>
+          <div id="loading-line-container">
+            <div id="loading-line"></div>
+          </div>
+          <p class="text-end" id="loading-percentage">0%</p>
+        </div>
+      </div>
+    </div> -->
+  
+    <div id="myNav" class="overlay d-flex">
+      <div class="menu-btn px-3">
+        <div class="d-flex justify-content-center">
+          <div class="pt-5 d-flex">
+            <a class="text-uppercase pb-4" onclick="openNav()">Business</a>
+            <a class="text-uppercase" onclick="openNav()">Industries We Serve</a>
+          </div>
+          <div>
+           <a class="text-light menu-link" onclick="openNav()">Menu</a>
+           <div class='btn-hamburger' onclick="openNav()">
+            <span></span>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="overlay-content">
+        <div class="position-relative menu-hover">
+            <div>
+              <a href="about.html" class="position-absolute">
+                About
+              </a>
+            </div>
+            <div class="border-animation"></div>
+            <div>
+              <a href="about.html" class="link" href="#">
+                <span class="link__arrow">
+                  <span></span>
+                  <span></span>
+                </span>
+                <span class="link__line"></span>
+                <span class="divider"></span>
+              </a>
+          </div>
+        </div>
+        <div class="position-relative menu-hover">
+          <div>
+            <a href="business.html" class="position-absolute">
+              Business
+            </a>
+          </div>
+          <div class="border-animation" style="left: 225px;"></div>
+          <div>
+            <a href="business.html" class="link" href="#">
+              <span class="link__arrow">
+                <span></span>
+                <span></span>
+              </span>
+              <span class="link__line"></span>
+              <span class="divider"></span>
+            </a>
+        </div>
+      </div>
+      <div class="position-relative menu-hover">
+        <div>
+          <a href="project.html" class="position-absolute">
+            Project
+          </a>
+        </div>
+        <div class="border-animation" style="left: 180px;"></div>
+        <div>
+          <a href="project.html" class="link" href="#">
+            <span class="link__arrow">
+              <span></span>
+              <span></span>
+            </span>
+            <span class="link__line"></span>
+            <span class="divider"></span>
+          </a>
+      </div>
+    </div>
+    <div class="position-relative menu-hover">
+      <div>
+        <a href="products.html" class="position-absolute">
+          Products
+        </a>
+      </div>
+      <div class="border-animation" style="left: 250px;"></div>
+      <div>
+        <a href="products.html" class="link" href="#">
+          <span class="link__arrow">
+            <span></span>
+            <span></span>
+          </span>
+          <span class="link__line"></span>
+          <span class="divider"></span>
+        </a>
+    </div>
+  </div>
+    <div class="position-relative menu-hover">
+      <div>
+        <a href="contact-us.html" class="position-absolute">
+          Contact
+        </a>
+      </div>
+      <div class="border-animation" style="left: 195px;"></div>
+      <div>
+        <a href="contact-us.html" class="link" href="#">
+          <span class="link__arrow">
+            <span></span>
+            <span></span>
+          </span>
+          <span class="link__line"></span>
+          <span class="divider"></span>
+        </a>
+    </div>
+  </div>
+        <div class="closebtn">
+          <a href="javascript:void(0)" onclick="closeNav()">&times;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-none image-logo">
+      <img src="assets/img/home/Worktrek-logo.png" alt="">
+    </div>
+
+    <div class="panel container">
+      <div class="panel container" id="headerPanel">
+        <a href="index.html">
+          <h2>Worktrek</h2>
+        </a>
+      </div>
+    </div>
+
+  <section class="sec-1 container">
+    <div class="row align-items-center">
+      <div>
+        <div class="left-section">
+          <h2>
+            About
+          </h2>
+          <h2>
+            Us
+          </h2>
+        </div>
+        <div class="line"></div>
+        <div class="right-section">
+          <p>
+            Worktrek is Group of companies based at Ahmedabad (Gujarat), India with manufacturing facility at District-Surendranagar for Solar PV Module, Solar Water Heater, MF Earthing, Lightning Protection System and Module Mounting Structure through the best innovative infrastructure and environment friendly practices. In other words, Worktrek Group is an Organization on a Green mission; i.e. solar energy refers to technologies that convert the sun's heat or light to another from of energy for use.
+          </p>
+        </div>
+      </div>
+          <div class="image-section">
+            <img src="assets/img/home/pannello-home.png" alt="">
+          </div>
+    </div>
+  </section>
+
+  <section class="container sec-2 mb-5">
+    <div class="row mb-5">
+      <div class="col-sm-6">
+        <h3 class="pb-5">Technical Meet at <br>
+          Worktrek Factory</h3>
+
+        <div>
+          <p>Please register with us from below link</p>
+          <button class="btn btn-orange mb-5">Register Now</button>
+        </div>
+      </div>
+      <div class="col sm-6">
+        <p class="f-size">
+        Don't miss the chance to <br>
+         know the technical know-how <br>
+         of solar panel and earthing. <br>
+         Visit our factory and strengthen  <br>
+         your skill.
+        </p>
+      </div>
+    </div>
+    <div class="register-section-img">
+      <img src="assets/img/home/register-img.jpg" alt="">
+    </div>
+  </section>
+
+  <section class="industries-we-serve mb-5">
+    <div class="ms-5 mb-5 border-bottom-line">
+      <h2>Industries We Serve</h2>
+    </div>
+    <div class="svg-position d-flex justify-content-center align-items-center">
+      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="200" height="200" viewBox="0 0 30 30">
+        <path class="industries-svg" d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"></path>
+        </svg>
+    </div>
+    <div class="industries-we-serve-hover">
+     <div class="row">
+        <div class="col-sm-6">
+          <div class="industries-we-serve-image">
+           <img src="assets/img/home/infrastructure.jpg" alt="">
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="industries-we-serve-content">
+            <p>
+              <span class="list-size">01.</span>
+              <span class="text-hover">Infrastructure</span>
+            </p>
+          </div>
+        </div>
+     </div>
+    </div>
+    <div class="industries-we-serve-hover">
+      <div class="row">
+         <div class="col-sm-6">
+           <div class="industries-we-serve-image">
+            <img src="assets/img/home/telecommunication.jpg" alt="">
+           </div>
+         </div>
+         <div class="col-sm-6">
+           <div class="industries-we-serve-content">
+             <p>
+              <span class="list-size">02.</span>
+              <span class="text-hover">Telecommunications</span>
+             </p>
+           </div>
+         </div>
+      </div>
+     </div>
+     <div class="industries-we-serve-hover">
+      <div class="row">
+         <div class="col-sm-6">
+           <div class="industries-we-serve-image">
+            <img src="assets/img/home/manufacturing-facility.jpg" alt="">
+           </div>
+         </div>
+         <div class="col-sm-6">
+           <div class="industries-we-serve-content">
+             <p>
+              <span class="list-size">03.</span>
+              <span class="text-hover">Manufacturing Industry</span>
+             </p>
+           </div>
+         </div>
+      </div>
+     </div>
+     <div class="industries-we-serve-hover">
+      <div class="row">
+         <div class="col-sm-6">
+           <div class="industries-we-serve-image">
+            <img src="assets/img/home/refineries.png" alt="">
+           </div>
+         </div>
+         <div class="col-sm-6">
+           <div class="industries-we-serve-content">
+             <p>
+              <span class="list-size">04.</span>
+              <span class="text-hover">Refineries</span>
+             </p>
+           </div>
+         </div>
+      </div>
+     </div>
+     <div class="industries-we-serve-hover">
+      <div class="row">
+         <div class="col-sm-6">
+           <div class="industries-we-serve-image">
+            <img src="assets/img/home/energy.jpg" alt="">
+           </div>
+         </div>
+         <div class="col-sm-6">
+           <div class="industries-we-serve-content">
+             <p>
+              <span class="list-size">05.</span>
+              <span class="text-hover">Energy</span>
+             </p>
+           </div>
+         </div>
+      </div>
+     </div>
+     <div class="industries-we-serve-hover">
+      <div class="row">
+         <div class="col-sm-6">
+           <div class="industries-we-serve-image">
+            <img src="assets/img/home/register-img.jpg" alt="">
+           </div>
+         </div>
+         <div class="col-sm-6">
+           <div class="industries-we-serve-content">
+             <p>
+              <span class="list-size">06.</span>
+              <span class="text-hover">Goverment Projects</span>
+             </p>
+           </div>
+         </div>
+      </div>
+     </div>
+  </section>
+
+  <section class="container about-group">
+    <div class="row">
+      <div class="col-sm-6">
+        <h4>POWERTRAC SOLAR <br>
+          PROJECTS LIMITED</h4>
+      </div>
+      <div class="col-sm-6">
+        <p>Worktrek is one of the Leading organizations providing sophisticated Solar Solutions. Having its own state-of-art in-house Solar Manufacture Infrastructure, Worktrek provides best-in Solar Solutions for simplifying business processes. With a unique business process of client services in terms of analysis of existing Solar Infrastructure, Business model, and Operation Capabilities; performing GAP Analysis as per the business goals; streamlining and continuous improvement of Solar Operations and proce</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="products mb-5">
+    <div class="ms-5 mb-5 border-bottom-line">
+      <h2>Products</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 p-0">
+        <div class="products-container">
+          <img src="assets/img/home/infrastructure.jpg" alt="">
+          <div class="products-content d-flex align-items-end">
+            <div class="text-position">
+              <h2>Solar Panel</h2>
+              <p>Find out more</p>
+            </div>
+            <div class="arrow-position">
+              <a class="link py-5" href="#">
+                <span class="link__arrow">
+                  <span></span>
+                  <span></span>
+                </span>
+                <span class="link__line"></span>
+              </a>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 p-0">
+        <div class="products-container">
+          <img src="assets/img/home/solar-strucutre.jpg" alt="">
+          <div class="products-content d-flex align-items-end">
+            <div class="text-position">
+              <h2>Solar Structure</h2>
+              <p>Find out more</p>
+            </div>
+            <div class="arrow-position">
+              <a class="link py-5" href="#">
+                <span class="link__arrow">
+                  <span></span>
+                  <span></span>
+                </span>
+                <span class="link__line"></span>
+              </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container contact-us">
+    <div class="row">
+      <div class="col-sm-10 pb-3">
+        <h2>
+          BECOME CHANNEL PARTNER FOR OUR PRODUCTS
+        </h2>
+      </div>
+      <div class="col-sm-2 position-relative">
+        <a href="contact-us.html" class="position-absolute">
+          <h5>
+            Request now
+          </h5>
+        </a>
+          <div>
+            <a href="contact-us.html" class="link" href="#">
+              <span class="link__arrow">
+                <span></span>
+                <span></span>
+              </span>
+              <span class="link__line"></span>
+              <span class="divider"></span>
+            </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 
+  <footer class="container border-top-orange">
+    <div class="py-5">
+      <img src="assets/img/home/Worktrek-logo.png" alt="" width="15%" class="footer-logo">
+    </div>
+      <div class="row pt-5">
+        <div class="col-6 col-lg-2">
+          <ul class="p-0">
+            <li><a href="" class="text-light">About group</a></li>
+            <li><a href="" class="text-light">Business</a></li>
+            <li><a href="" class="text-light">Industries We Serve</a></li>
+            <li><a href="" class="text-light">Career</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <ul class="p-0">
+            <li><a href="" class="text-light">Contact</a></li>
+            <li><a href="" class="text-light">Privacy Policy</a></li>
+            <li><a href="" class="text-light">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="d-flex pt-5">
+        <p class="text-secondary">Follow Us On: </p>
+        <a href="" class="px-2"> Facebook </a>
+        <a href="" class="px-2"> Instagram </a>
+        <a href="" class="px-2"> Linkedin </a>
+      </div>
+  </footer> -->
+
+  <footer class="container border-top-orange pb-4">
+    <div class="py-5">
+      <!-- <img src="assets/img/home/Worktrek-logo.png" alt="" width="15%" class="footer-logo"> -->
+      <h1>
+        Worktrek
+      </h1>
+    </div>
+    <div class="row">
+      <div class="col-sm-6">
+          <div class="row pt-5">
+            <div class="col-6 col-lg-2">
+              <ul class="p-0">
+                <li><a href="" class="text-light">About group</a></li>
+                <li><a href="" class="text-light">Business</a></li>
+                <li><a href="" class="text-light">Industries We Serve</a></li>
+                <li><a href="" class="text-light">Career</a></li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2">
+              <ul class="p-0">
+                <li><a href="" class="text-light">Contact</a></li>
+                <li><a href="" class="text-light">Privacy Policy</a></li>
+                <li><a href="" class="text-light">Cookie Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-flex pt-5">
+            <p class="text-secondary">Follow Us On: </p>
+            <a href="" class="px-2"> Facebook </a>
+            <a href="" class="px-2"> Instagram </a>
+            <a href="" class="px-2"> Linkedin </a>
+          </div>
+      </div>
+      <div class="col-sm-6">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3516103.074614877!2d71.50131392609336!3d23.044015760309932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9adcf6def3c7%3A0xc5a6ed751f9543e8!2s31FIVE!5e0!3m2!1sen!2sin!4v1702453331926!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </footer>
+
+    <script src="assets\js\main.js"></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+  
+      // Define the GSAP timeline for the animation
+      var tl = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#headerPanel",
+          start: "top top",
+          end: "bottom top",
+          scrub: true, // smooth animation during scroll
+        },
+      });
+  
+      // Add animation to decrease the font size and change color to grey
+      tl.to("#headerPanel h2", { top: 0, left: 0, width: "30%", fontSize: "40px", opacity:"0.5" }, 0);
+  
+      // Add animation to fix the panel at the top left
+      // tl.to("#headerPanel", { top: 0, left: 0, width: "30%" }, 0);
+    </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  const loadingLine = document.getElementById("loading-line");
+  const loadingPercentage = document.getElementById("loading-percentage");
+
+  let progress = 0;
+
+  function updateLoading() {
+    loadingLine.style.width = progress + "1%";
+    loadingPercentage.textContent = progress + "%";
+
+    if (progress < 100) {
+      setTimeout(() => {
+        progress++;
+        requestAnimationFrame(updateLoading);
+      }, 20);
+    } else {
+      setTimeout(() => {
+        document.body.style.overflow = "visible";
+        document.getElementById("loading-container").style.display = "none";
+      }, 500);
+    }
+  }
+
+  updateLoading();
+});
+
+</script>
+
+  </body>
+</html>
